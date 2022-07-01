@@ -1,0 +1,172 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@400&display=swap");
+* {
+  background-color: lavender;
+  padding: 0;
+  margin: 0;
+  font-size: 18px;
+  font-family: "Roboto Slab", serif;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+h1 {
+  text-align: center;
+  font-size: 35px;
+  margin-top: 50px;
+}
+
+h2 {
+  font-size: 23px;
+  text-align: center;
+  padding: 0 20px;
+}
+
+.wrapper {
+  width: 100%;
+}
+
+.calculator,
+form,
+.results {
+  margin-left: auto;
+  margin-right: auto;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.message {
+  margin-left: auto;
+  margin-right: auto;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  margin-top: 2px;
+  height: auto;
+  width: 70%;
+  font-size: 15px;
+}
+
+.distance,
+.goal,
+.measure {
+  margin-left: auto;
+  margin-right: auto;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  border: 2px solid white;
+  border-radius: 15px;
+  -webkit-box-shadow: 2px 2px 2px grey;
+  box-shadow: 2px 2px 2px grey;
+  padding: 12px;
+  margin: 5px;
+  width: 90vw;
+  max-width: 650px;
+  text-align: center;
+}
+
+.distance .field,
+.goal .field,
+.measure .field {
+  display: inline;
+}
+
+::-webkit-input-placeholder {
+  color: #fff;
+}
+
+:-ms-input-placeholder {
+  color: #fff;
+}
+
+::-ms-input-placeholder {
+  color: #fff;
+}
+
+::placeholder {
+  color: #fff;
+}
+
+.distance input {
+  background-color: rgba(115, 32, 145, 0.5);
+  color: #fff;
+  -webkit-box-shadow: 3px 3px 7px #732091;
+  box-shadow: 3px 3px 7px #732091;
+  -webkit-transition: 0.5s linear;
+  transition: 0.5s linear;
+  margin-bottom: 7px;
+  cursor: pointer;
+  text-align: center;
+  border-radius: 5px;
+  width: 130px;
+}
+
+.measure input {
+  width: 20px;
+}
+
+.measure label {
+  margin-left: 17px;
+}
+
+.goal input {
+  background-color: rgba(115, 32, 145, 0.5);
+  color: #fff;
+  -webkit-box-shadow: 3px 3px 7px #732091;
+  box-shadow: 3px 3px 7px #732091;
+  -webkit-transition: 0.5s linear;
+  transition: 0.5s linear;
+  margin-bottom: 7px;
+  cursor: pointer;
+  text-align: center;
+  border-radius: 5px;
+  width: 45px;
+  margin: 0 0 7px 8px;
+}
+
+.colon {
+  display: inline;
+  margin-left: 9px;
+}
+
+.submit,
+.reset {
+  background-color: rgba(115, 32, 145, 0.5);
+  color: #fff;
+  -webkit-box-shadow: 5px 3px 7px #732091;
+  box-shadow: 5px 3px 7px #732091;
+  -webkit-transition: 0.5s linear;
+  transition: 0.5s linear;
+  margin-bottom: 7px;
+  cursor: pointer;
+  text-align: center;
+  border-radius: 5px;
+  margin-top: 5px;
+  padding: 5px;
+  margin: 5px;
+}
+
+.submit:hover,
+.reset:hover {
+  text-decoration: underline;
+}
+/*# sourceMappingURL=style.css.map */
